@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="grid grid-cols-2 bg-fixed bg-red-500 h-screen"
+      style="background-image: url(./images/bg-intro-desktop.png);"
+    >
+      <div>
+        <h1
+          class="ml-40 pl-40 pb-5 pt-40 mt-40 pt-20 pr-30 text-6xl text-left font-bold text-white"
+        >
+          Learn to code by watching others
+        </h1>
+        <h5 class="ml-40 pl-40 text-2xl text-left text-white">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </h5>
+      </div>
+      <div class="pt-10 pl-20 pr-20 text-1xl text-left m-40">
+        <button
+          class="bg-purple-700 hover:bg-purple-800 text-white py-3 border-purple-700 rounded mb-5 text-center w-full shadow-2xl"
+        >
+          Try it free 7 days then $20/mo. thereafter</button
+        ><br />
+        <div class="rounded shadow bg-white w-full mb-10 pb-10 text-center">
+          <input
+            class="bg-white-700 hover:bg-white-800 text-gray-400 py-3 border border-gray-300 shadow-sm rounded mb-5 text-left w-5/6 mx-10 mt-10"
+            type="text"
+            placeholder=" First Name"
+          /><br />
+          <input
+            class="bg-white-700 hover:bg-white-800 text-gray-400 py-3 border border-gray-300 shadow-sm rounded mb-5 text-left w-5/6 mx-10"
+            type="text"
+            placeholder=" Last Name"
+          /><br />
+          <input
+            class="bg-white-700 hover:bg-white-800 text-gray-400 py-3 border border-gray-300 shadow-sm rounded mb-5 text-left w-5/6 mx-10"
+            type="text"
+            placeholder=" Email Address"
+          /><br />
+          <input
+            class="bg-white-700 hover:bg-white-800 text-gray-400 py-3 border border-gray-300 shadow-sm rounded mb-5 text-left w-5/6 mx-10"
+            type="text"
+            placeholder=" Password"
+          /><br />
+          <button
+            class="bg-green-400 hover:bg-green-800 text-white py-3 border rounded mb-2 text-left w-5/6 mx-10 text-center uppercase shadow-2xl border-green-400"
+          >
+            Claim your free trial
+          </button>
+
+          <label class="text-xs p-10"
+            >By clicking the button, you are agreeing to our
+            <b class="text-red-500 text-xs">Terms and Services</b></label
+          >
+        </div>
+
+        <footer>
+          <p class="attribution">Coded by <a href="#">@ADEBGO</a>.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
