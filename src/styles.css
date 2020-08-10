@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
+
+.title {
+  @apply ml-40 pl-40 pb-5 pt-40 mt-40  text-6xl text-left font-bold text-white;
+}
+
+.description {
+  @apply ml-40 pl-40 text-2xl text-left text-white;
+}
+
+.menu {
+  @apply pt-10 pl-20 pr-20 text-xl text-left m-40;
+}
+
+.btn-type {
+  @apply bg-purple-600 text-white py-3 border-purple-700 rounded mb-5 text-center w-full shadow-2xl;
+}
+.card {
+  @apply rounded shadow bg-white w-full mb-10 pb-10 text-center;
+}
+
+.input-type {
+  @apply bg-white text-gray-400 py-3 border border-gray-300 shadow-sm rounded text-left w-5/6 mx-10 mt-5;
+}
+
+.btn-type-2 {
+  @apply bg-green-400  text-white py-3 border rounded mb-2 text-left w-5/6 mx-10 mt-5 text-center uppercase shadow-2xl border-green-400;
+}
 @tailwind utilities;
